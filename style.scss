@@ -183,21 +183,14 @@ body{
             padding: 18px 35px;
             border-radius: 140px;
             background: transparent;
-            transition: 0.2s;
             font-weight: 400;
             font-size: 20px;
+            transition: all 0.2s ease-out;
             cursor: pointer;
 
             &:hover{
                 background: linear-gradient(254.51deg, #733EC0 -0.49%, #000000 177.89%);
-                
             }
-        }
-
-        .ara{
-            height: 16px;
-            width: 1px;
-            background: var(--solgun);
         }
     }
 
@@ -316,7 +309,7 @@ body{
 
             input{
                 width: 260px;
-                padding: 20px;
+                padding: 20px 35px 20px 18px;
                 color: #000;
                 border-radius: 19px 0 0 19px;
                 background: linear-gradient(90deg, rgba(255, 255, 255, 0.85) 37.08%, rgba(255, 255, 255, 0) 97.26%);
